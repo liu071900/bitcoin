@@ -1,0 +1,124 @@
+@import '~antd/lib/style/themes/default.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.globalSpin {
+  width: 100%;
+  margin: 40px 0 !important;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+// =====================ant 样式重写======================
+.ant-input {
+  height: 100% !important;
+  border-radius: 0px !important;
+  &:disabled{
+    border:none;
+    background-color:#F0F0F0;
+  }
+}
+.ant-btn{
+  border: 0px;
+  border-radius: 0px;
+}
+
+// =====================自定义样式====================
+.kcex-borderBtn{
+  border: 1px solid #E6E6E6;
+  background-color: #ffffff;
+  cursor: pointer;
+  &:focus{
+    outline: none;
+  }
+  &:active{
+    border-color: #7d85ad;
+    box-shadow: 0 0 0 2px rgba(90, 100, 161, 0.2);
+  }
+}
+
+.kcex-content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+// 横向列表
+.kcex-ul-vlist{
+  padding: 0;
+  margin: 0;
+  li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+}
+
+.span-padding4 {
+  padding: 0 4px;
+}
+
+//sider 样式
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 120px !important;
+  line-height: 120px !important;
+  overflow: hidden;
+}
+.ant-carousel-vertical .slick-dots  button{
+  width: 4px !important;
+  background-color:  rgba(255,255,255,0.20);
+}
+.ant-carousel-vertical .slick-dots  li.slick-active button{
+  background-color:  rgba(255,255,255,0.50) !important;
+}
+//-------------------
+
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}

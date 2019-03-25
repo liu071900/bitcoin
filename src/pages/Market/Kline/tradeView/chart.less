@@ -1,0 +1,89 @@
+/* K线图切换 分钟 小时 日 选项按钮样式 */
+.listItems {
+  display: inline-block;
+  padding: 0;
+  cursor: pointer;
+  margin: 0;
+}
+.listItem {
+  display: inline-block;
+  color: #666666;
+  height: 24px;
+  line-height: 24px;
+  margin: 0 2px;
+  text-align: center;
+  background-color: #e6e6e6;
+  font-size: 12px;
+  vertical-align: bottom;
+}
+
+.listItemActive {
+  color: #e8e8e8;
+  background-color: #5a64a1;
+}
+
+.listItemsHide {
+  visibility: hidden;
+}
+
+/* 下拉选择框 */
+.kToggle {
+  &::after {
+    content: '▾';
+    right: 2px;
+    position: absolute;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease 0s;
+  }
+}
+
+.kToggleUp {
+  &::after {
+    transform: rotate(180deg);
+  }
+}
+.listSelect {
+  position: absolute;
+  top: 105%;
+  left: -1px;
+  white-space: nowrap;
+  box-shadow: rgba(0, 0, 0, 0.35) 1px 1px 10px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  width: 130%;
+  background-color: #ffffff;
+  color: rgb(51, 51, 51);
+  z-index: 200;
+  li {
+    &:hover {
+      background-color: #f2f3fa;
+    }
+  }
+}
+.listOptions {
+  border-top: 1px solid rgb(230, 230, 230);
+  border-left: 1px solid rgb(230, 230, 230);
+  border-right: 1px solid rgb(230, 230, 230);
+  padding: 4px;
+}
+
+.chartArea {
+  position: relative;
+  height: 360px;
+  width: 640px;
+  overflow: hidden;
+  article {
+    position: relative;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    transition: all 0.2s;
+  }
+  .chartActive {
+    opacity: 1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+}

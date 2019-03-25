@@ -1,0 +1,43 @@
+<svg width="122px" height="30px" viewBox="0 0 122 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.070065 3e-05 19.648965 3e-05 19.648965 18 0.070065 18"></polygon>
+    </defs>
+    <g id="icon/logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo">
+            <g id="Group-4" fill="#FFFFFF">
+                <rect id="Rectangle-5" x="0" y="0" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy" x="0" y="6" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-5" x="6" y="6" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-2" x="0" y="12" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-6" x="6" y="12" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-8" x="12" y="12" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-9" x="12" y="0" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-10" x="18" y="6" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-14" x="24" y="0" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-11" x="18" y="18" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-13" x="24" y="24" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-12" x="12" y="24" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-3" x="0" y="18" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-7" x="6" y="18" width="6" height="6"></rect>
+                <rect id="Rectangle-5-Copy-4" x="0" y="24" width="6" height="6"></rect>
+            </g>
+            <g id="Page-1" transform="translate(38.000000, 6.000000)">
+                <polygon id="Fill-1" fill="#FFFFFF" points="12.789495 0.315675 5.052645 8.408925 5.052645 0.315675 4.5e-05 0.315675 4.5e-05 17.842125 5.052645 17.842125 5.052645 9.514125 12.473745 17.842125 18.631545 17.842125 10.105395 8.724825 18.631545 0.315675"></polygon>
+                <g id="Group-9" transform="translate(20.100000, 0.000000)">
+                    <g id="Group-4">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-3"></g>
+                        <path d="M19.648965,6.00003 L14.438415,6.00003 C14.226315,3.89553 12.701715,2.79033 9.859665,2.68428 C7.017465,2.79033 5.542065,4.94898 5.438565,9.15783 C5.542065,13.36923 7.017465,15.47358 9.859665,15.47358 C12.701715,15.47358 14.226315,14.36838 14.438415,12.15798 L19.648965,12.15798 C19.333365,16.05333 16.069215,18.00003 9.859665,18.00003 C3.543765,17.89638 0.279765,14.94813 0.070065,9.15783 C0.279765,3.26403 3.543765,0.21213 9.859665,3e-05 C16.069215,0.10608 19.333365,2.10693 19.648965,6.00003" id="Fill-2" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                    <polygon id="Fill-5" fill="#FFFFFF" points="23.479095 17.842125 23.479095 0.315675 39.108045 0.315675 39.108045 3.315675 28.531845 3.315675 28.531845 7.421025 39.108045 7.421025 39.108045 10.263225 28.531845 10.263225 28.531845 15.000075 39.108045 15.000075 39.108045 17.842125"></polygon>
+                    <polygon id="Fill-7" fill="#FFFFFF" points="52.705065 12.318645 47.625915 17.842095 42.257415 17.842095 50.028615 9.301395 42.257415 0.315645 48.415065 0.315645 53.212065 5.802795 58.204665 0.315645 63.573015 0.315645 55.836315 8.842095 63.573015 17.841945 57.415065 17.841945"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

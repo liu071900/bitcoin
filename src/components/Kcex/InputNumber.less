@@ -1,0 +1,85 @@
+.suffixBtn{
+    font-size: 12px;
+    border-left: 1px solid rgb(230, 230, 230);
+    padding-left: 4px;
+    padding-right: 4px;
+    &:hover{
+        background-color: #E6E6E6;
+    }
+}
+
+.inputAddon{
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    height: 100%;
+    width: 60px;
+    background-color: rgb(247, 247, 247);
+    border-right: 1px solid  #E6E6E6;
+}
+
+.arrowWrap {
+    position: relative;
+    // top: 3px;
+    // right: 8px;
+    display: inline-flex;
+    height: 100%;
+    font-size: 12px;
+    width: 12px;
+    justify-content: space-around;
+    flex-direction: column;
+    .arrowUp {
+    display: inline-block;
+    height: 50%;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+    border: 1px solid #e6e6e6;
+    border-bottom: 0;
+    background-color: #ffffff;
+    .iconUp {
+        height: 6px;
+        width: 6px;
+        border-top: 1px solid #aaaaaa;
+        border-right: 1px solid #aaaaaa;
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 6px;
+        left: 3px;
+    }
+    }
+
+    .arrowDown {
+    display: inline-block;
+    border-radius: 0px 0px 6px 6px;
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    background-color: #ffffff;
+    height: 50%;
+    width: 100%;
+    .iconDown {
+        height: 6px;
+        width: 6px;
+        border-top: 1px solid #aaaaaa;
+        border-right: 1px solid #aaaaaa;
+        transform: rotate(-225deg);
+        position: absolute;
+        bottom: 6px;
+        left: 3px;
+    }
+    }
+
+    .numberContronl {
+    outline: none;
+    &:hover {
+        background-color: #e6e6e6;
+    }
+    &:active {
+        background-color: #333333;
+        i {
+        border-color: #ffffff;
+        }
+    }
+    }
+}
+  
+  

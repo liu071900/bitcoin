@@ -1,0 +1,21 @@
+.tabItem{
+    display: inline-block;
+    margin-left: 10px;
+    color: #999999;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+.activeTabItem{
+    color: #333333;
+    &::after{
+        content: "";
+        position: absolute;
+        left: 25%;
+        top: auto;
+        bottom: .5em;
+        height: 2px;
+        width: 50%;
+        background-color: #5a64a1;
+    }
+}
